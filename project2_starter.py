@@ -67,11 +67,12 @@ class Character:
     This is the top of our inheritance hierarchy.
     """
 
-    def __init__(self, name, health, strength, magic):
+    def __init__(self, name, health, strength, magic, level):
         self.name = name
         self.health = health
         self.strength = strength
         self.magic = magic
+        self.level = 1
         """Initialize basic character attributes"""
         # TODO: Set the character's name, health, strength, and magic
         # These should be stored as instance variables
