@@ -133,6 +133,7 @@ class Player(Character):
         self.character_class = character_class
         self.current_level = current_level
         self.exp = exp
+        self.level = current_level
         """
         Initialize a player character.
         Should call the parent constructor and add player-specific attributes.
@@ -302,7 +303,7 @@ class Weapon:
 
     def __init__(self, name, damage_bonus):
         self.name = name
-        self.damage_bonus = damage_bonus + 15
+        self.damage_bonus = damage_bonus
 
     """
     Weapon class to demonstrate composition.
