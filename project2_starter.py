@@ -3,8 +3,7 @@ COMP 163 - Project 2: Character Abilities Showcase
 Name: [Your Name Here]
 Date: [Date]
 
-AI Usage: [Document any AI assistance used]
-Example: AI helped with inheritance structure and method overriding concepts
+AI Usage: [CHATGPT help me with understanding classes while also helping me with structure in the todo sections]
 """
 
 
